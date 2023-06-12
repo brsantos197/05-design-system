@@ -1,5 +1,5 @@
 {
   "extends": [
-    "@ignite-ui/eslint-config"
+    "@emerald-ui/eslint-config"
   ]
 }
