@@ -10,4 +10,4 @@
 - [x] Avatar
 - [x] MultiStep
 - [x] Toast
-- [] Tooltip
+- [x] Tooltip

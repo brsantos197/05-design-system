@@ -2,7 +2,7 @@ import { Box, Button, Toast, ToastProps } from '@emerald-ui/react'
 import type { Meta, StoryObj } from '@storybook/react'
 import { useState } from 'react'
 export default {
-  title: 'Surfaces/Toast',
+  title: 'Utils/Toast',
   component: Toast,
   args: {
     position: 'bottom-right',
