@@ -26,8 +26,8 @@ jobs:
           TURBO_TOKEN: ${{ secrets.VERCEL_TOKEN }}
           TURBO_TEAM: brsantos197
 
-      - name: Deploy storybook
-        working-directory: ./packages/docs
+      - name: Deploy storybook React
+        working-directory: ./packages/docs-react
         run: npm run deploy-storybook -- --ci --existing-output-dir=storybook-static
         env:
           GH_TOKEN: ${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}
