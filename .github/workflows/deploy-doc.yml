@@ -28,6 +28,6 @@ jobs:
 
       - name: Deploy storybook React
         working-directory: ./packages/docs-react
-        run: npm run deploy-storybook -- --ci --existing-output-dir=storybook-static --packages packages
+        run: npm run deploy-storybook -- --ci --existing-output-dir=storybook-static --packages docs-react,docs-react-2
         env:
           GH_TOKEN: ${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}
