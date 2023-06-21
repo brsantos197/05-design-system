@@ -7,5 +7,5 @@
   "access": "public",
   "baseBranch": "main",
   "updateInternalDependencies": "patch",
-  "ignore": ["@emerald-ui/docs-react"]
+  "ignore": ["@emerald-ui/docs"]
 }
