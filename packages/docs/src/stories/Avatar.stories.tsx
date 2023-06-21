@@ -2,7 +2,7 @@ import type { StoryObj, Meta } from '@storybook/react'
 import { Avatar, AvatarProps } from '@emerald-ui/react'
 
 export default {
-  title: 'Data display/Avatar 1',
+  title: 'Data display/Avatar',
   component: Avatar,
   args: {
     src: 'https://avatars.githubusercontent.com/u/54981257?v=4',
