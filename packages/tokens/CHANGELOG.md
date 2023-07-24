@@ -1,5 +1,11 @@
 # @emerald-ui/tokens
 
+## 3.0.0
+
+### Major Changes
+
+- teste
+
 ## 2.1.0
 
 ### Minor Changes
