@@ -1,0 +1,2 @@
+import{A as t}from"./index.a0c004f2.js";import"./index.939311a8.js";import"./iframe.85f7f8e2.js";import"./index.4ba20dd2.js";import"./jsx-runtime.c3c41217.js";const c={title:"Data display/Avatar",component:t,args:{src:"https://avatars.githubusercontent.com/u/54981257?v=4",alt:"Bruno Santos"},argTypes:{src:{control:"text"}}},n={},e={args:{src:void 0}},m=["Primary","WithFallback"];export{n as Primary,e as WithFallback,m as __namedExportsOrder,c as default};
+//# sourceMappingURL=Avatar.stories.e06bc322.js.map
