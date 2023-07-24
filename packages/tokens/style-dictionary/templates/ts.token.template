@@ -1,0 +1,10 @@
+export const <%= file.destination.replace(/\..+/, '') %> = {
+<% _.each(
+  Object.values(dictionary.allTokens).map((token) => {
+      return {
+        name: `${token.attributes?.type}${token.attributes.item ?? ''}`,
+        value: token.value,
+      }
+    }), function(token) {
+  %>  <%= token.name %>: '<%= token.value %>',
+<% }); %>} as const

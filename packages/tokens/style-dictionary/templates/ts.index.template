@@ -1,0 +1,4 @@
+<% _.each(Object.keys(tokens), function(token) { 
+  if (options.excludes && options.excludes.some(t => t === token)) return ''
+  %>export * from './<%= token %>s'
+<% }); %>
