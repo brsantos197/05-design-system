@@ -16,7 +16,7 @@ jobs:
         with:
           name: ${{ github.event.client_payload.filename }}
           json: ${{ github.event.client_payload.tokens }}
-          dir: "input"
+          dir: "/packages/tokens/style-dictionary/figma"
 
       - name: Install Node.js
         uses: actions/setup-node@v3
@@ -27,7 +27,7 @@ jobs:
         run: npm ci
 
       - name: Build
-        run: npm run build
+        run: cd packages/tokens && npm run tokens
 
       - name: Create PR
         uses: peter-evans/create-pull-request@v4
